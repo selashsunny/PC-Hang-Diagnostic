@@ -1,5 +1,5 @@
 # ============================================================
-# PC HANG DIAGNOSTIC TOOL
+# PC HANG DIAGNOSTIC TOOL CREATED BY SELASH SUNNY
 # Compatible: Windows 7 / 8 / 8.1 / 10 / 11
 # Output: Self-contained HTML diagnostic report
 # ============================================================
@@ -14,9 +14,9 @@ $ReportFile = Join-Path $ReportFolder ("PC_Hang_Diagnostic_{0}_{1}.html" -f `
     $ComputerName, (Get-Date -Format "yyyyMMdd_HHmmss"))
 
 Write-Host ""
-Write-Host "============================================================" -ForegroundColor Cyan
-Write-Host "              PC HANG DIAGNOSTIC TOOL" -ForegroundColor Cyan
-Write-Host "============================================================" -ForegroundColor Cyan
+Write-Host "===========================================================================" -ForegroundColor Cyan
+Write-Host "              PC HANG DIAGNOSTIC TOOL CREATED BY SELASH SUNNY" -ForegroundColor Cyan
+Write-Host "===========================================================================" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "Computer : $ComputerName"
 Write-Host "User     : $UserName"
@@ -1773,9 +1773,9 @@ tr:hover td {
 
 <div class="header">
 
-    <h1>PC Hang Diagnostic Report</h1>
+    <h1>PC Hang Diagnostic Report Created By Selash Sunny</h1>
 
-    <p>Windows system performance and troubleshooting report</p>
+    <p>Windows System Performance And Troubleshooting Report</p>
 
     <div class="header-meta">
 
@@ -1822,8 +1822,8 @@ tr:hover td {
 $($Sections -join "`n")
 
 <div class="footer">
-    PC Hang Diagnostic Tool<br>
-    Report generated locally on the computer.
+    PC Hang Diagnostic Tool Created By Selash Sunny <br>
+    Report Generated Locally On The Computer.
 </div>
 
 </div>
