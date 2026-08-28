@@ -1,6 +1,6 @@
 ## PC Hang Diagnostic ##
 
-### Check System Info ###
+### PC_Hang_Diagnostic.ps1 ###
 ```
 # ============================================================
 # PC HANG DIAGNOSTIC TOOL
