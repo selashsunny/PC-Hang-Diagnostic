@@ -1,5 +1,3 @@
-# PC-Hang-Diagnostic
-PC Hang Diagnostic
 ## PC Hang Diagnostic ##
 
 ### Check System Info ###
